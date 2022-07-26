@@ -18,10 +18,15 @@ nav {
     border-right: 0px;
     padding-top:.75em;
     padding-bottom:.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 nav li {
-    display: inline-block;
+    /*display: inline-block;*/
     padding-left: 5%;
     padding-right: 5%;
 }
