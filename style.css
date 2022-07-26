@@ -25,11 +25,6 @@ nav {
     padding-right: 10%;
 }
 
-nav li {
-    /*display: inline-block;*/
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 nav a {
     color: white;
