@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Level 2</title>
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/sidebar.css">
+        <script src="../scripts/sidebar.js"></script>
     </head>
     <body>
         <header class="main-header">
             <h1 class="webheader">CS CURRICULUM</h1>
-            <nav>
+            <nav class="header-links">
                 <a href="../about.html">ABOUT</a>
                 <a href="../getstarted.html">GET STARTED</a>
                 <a href="../level1/level1_1.html">LEVEL 1</a>
@@ -16,7 +18,38 @@
             </nav>
             <hr>
         </header>
-
+        <!--sidebar-->
+        <nav id="sidebar-container">
+            <ul id="mySidebar">
+                <li class="side-link"><button onclick="w3_close();">Close &times;</button></li>
+                <li class="side-link">
+                    <a href = "level2_1.html">
+                        Lesson 1: Conditionals
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level2_2.html">
+                        Lesson 2: Loops
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level2_3.html">
+                        Lesson 3: Functions and Parameters
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level2_4.html">
+                        Lesson 4: Logic Gates
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level2_5.html">
+                        How to Set Up Your Environment
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button onclick="w3_open();">&#9776</button>
         <h2>Setting Up Windows Environment</h2>
 
         <h3>Step 0: Verify Windows Version</h3>
