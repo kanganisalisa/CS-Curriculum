@@ -1,0 +1,24 @@
+/* sidebar stuff*/
+#sidebar-container {
+    position: relative;
+    background-color:lightblue;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+}
+
+#mySidebar {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-link {
+    background-color: lightpink;
+    border: 1px solid red;
+    z-index: 100;
+}
