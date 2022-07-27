@@ -11,7 +11,7 @@
 }
 
 /*Navigation Links in header*/
-nav {
+.header-links {
     text-align: center;
     font-weight: lighter;
     border-right: 0px;
@@ -25,7 +25,7 @@ nav {
 }
 
 
-nav a {
+.header-links a {
     color: white;
     text-decoration: none;
     font-size:larger;
@@ -34,7 +34,7 @@ nav a {
     border-radius: 2px;
 }
 
-nav a:hover {
+.header-links a:hover {
     background-color:rgba(255, 255, 255, 0.3);
     background-size:10cm;
     cursor: pointer;
@@ -42,45 +42,10 @@ nav a:hover {
 
 /*header background image*/
 .main-header {
-    background-image: url(images/code2.png);
+    background-image: url(../images/code2.png);
     background-color: rgba(89, 145, 90, 0.9);
     background-blend-mode: multiply;
     background-size: cover;
     max-height:max-content;
     padding-top: 2em;
 }
-
-#mySidebar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    transition: display 1s;
-}
-
-.sidebar-link {
-    height: 100px;
-    width: 200px;
-    background-color: lightpink;
-    border: 1px solid red;
-}
-
-
-/*body paragraph font
-p {
-
-}
-*/
-
-/*body header font
-h2 {
-    
-}
-*/
-
-/*for testing code
-body {
-    padding-bottom: 2000px;
-}
-*/
