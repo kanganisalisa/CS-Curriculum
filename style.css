@@ -50,6 +50,23 @@ nav a:hover {
     padding-top: 2em;
 }
 
+#mySidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: display 1s;
+}
+
+.sidebar-link {
+    height: 100px;
+    width: 200px;
+    background-color: lightpink;
+    border: 1px solid red;
+}
+
+
 /*body paragraph font
 p {
 
