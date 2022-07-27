@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Level 3</title>
-        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../styles/header.css">
+        <link rel="stylesheet" href="../styles/sidebar.css">
+        <script src="../scripts/sidebar.js"></script>
     </head>
     <body>
         <header class="main-header">
             <h1 class="webheader">CS CURRICULUM</h1>
-            <nav>
+            <nav class="header-links">
                 <a href="../about.html">ABOUT</a>
                 <a href="../getstarted.html">GET STARTED</a>
                 <a href="../level1/level1_1.html">LEVEL 1</a>
@@ -16,6 +18,38 @@
             </nav>
             <hr>
         </header>
+        <!--sidebar-->
+        <nav id="sidebar-container">
+            <ul id="mySidebar">
+                <li class="side-link"><button onclick="w3_close();">Close &times;</button></li>
+                <li class="side-link">
+                    <a href = "level3_1.html">
+                        Lesson 1: Nested Loops
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level3_2.html">
+                        Lesson 2: Compound Conditionals
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level3_3.html">
+                        Lesson 3: Lists
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level3_4.html">
+                        Lesson 4: Objects, Classes and Methods
+                    </a>
+                </li>
+                <li class="side-link">
+                    <a href = "level3_5.html">
+                        Lesson 5: Recursion
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button onclick="w3_open();">&#9776</button>
         <h3>Topics:</h3>
         <ul>
             <li>
