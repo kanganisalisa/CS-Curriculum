@@ -38,7 +38,11 @@
 
 .side-link a {
     text-decoration: none;
-    padding: 14px 25px;
-    text-align: left;
+    padding: 14px 14px;
+    text-align: center;
     display: inline-block;
+}
+
+.side-link a:hover {
+    cursor: pointer;
 }
