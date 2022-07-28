@@ -1,4 +1,9 @@
 /* sidebar stuff*/
+.open-sidebar {
+    transition: none;
+    border: none;
+}
+
 #sidebar-container {
     position: relative;
     background-color:lightblue;
