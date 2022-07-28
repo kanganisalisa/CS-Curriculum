@@ -1,7 +1,7 @@
-function w3_open() {
+function open_sidebar() {
   document.getElementById("mySidebar").style.display = "flex";
 }
   
-function w3_close() {
+function close_sidebar() {
   document.getElementById("mySidebar").style.display = "none";
 }
