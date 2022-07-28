@@ -7,9 +7,11 @@
 
 /*align slide decks in center*/
 #slide {
-    margin: 0px auto; 
-    overflow: hidden; 
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 942px;
 }
 
 /*align slide download button in center*/
