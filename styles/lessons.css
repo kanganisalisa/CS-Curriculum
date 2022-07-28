@@ -1,0 +1,18 @@
+/*format slide decks*/
+
+/*align lesson headers in center*/
+#lesson-header{
+    text-align: center;
+}
+
+/*align slide decks in center*/
+#slide {
+    margin: 0px auto; 
+    overflow: hidden; 
+    text-align: center;
+}
+
+/*align slide download button in center*/
+#slide-download {
+    text-align: center;
+}
