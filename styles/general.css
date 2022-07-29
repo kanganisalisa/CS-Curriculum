@@ -1,0 +1,41 @@
+
+/*fonts*/
+div {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+p { 
+    font-weight: 300;
+}
+
+ul {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+/*tables*/
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+table {
+    font-weight: 300;
+    width: 50%
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+
+
