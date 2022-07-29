@@ -1,0 +1,21 @@
+div {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2%;
+    padding-right: 2%
+}
+
+p { 
+    font-weight: 300;
+}
+
+ul {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+table {
+    font-weight: 300;
+}
