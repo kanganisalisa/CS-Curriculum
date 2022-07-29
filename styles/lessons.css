@@ -15,6 +15,6 @@
 }
 
 /*align slide download button in center*/
-#slide-copy {
+.slide-copy {
     text-align: center;
 }
