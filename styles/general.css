@@ -16,6 +16,7 @@ ul {
 }
 
 h2 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
@@ -45,6 +46,9 @@ td {
 a { 
     text-decoration: none; 
     color: rgb(167, 88, 206);
+    transition: background-color 0.15s;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 
