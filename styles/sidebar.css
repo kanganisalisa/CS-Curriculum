@@ -42,7 +42,6 @@
 .side-link {
     background-color: lightpink;
     width: 150px;
-    /*border: 1px solid red;*/
     z-index: 100;
     padding: none;
     margin: none;
@@ -56,9 +55,10 @@
     display: flex;
     justify-content: center;
     transition: background-color 0.10s;
+    background-color: #f2f2f2
 }
 
 .side-link a:hover {
     cursor: pointer;
-    background-color: lightblue;
+    background-color:rgba(255, 225, 0, 0.3);
 }
