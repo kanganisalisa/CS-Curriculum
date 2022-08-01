@@ -3,6 +3,7 @@
 /*align lesson headers in center*/
 #lesson-header{
     text-align: center;
+    margin-top: 0;
 }
 
 /*align slide decks in center*/
