@@ -1,9 +1,10 @@
-/*this is a button*/
+/*open-sidebar button*/
 .open-sidebar {
     background-color: rgb(240, 240, 240);
     border: 1px solid rgb(192, 192, 192);
     border-radius: 2px;
     transition: box-shadow 0.15s;
+    font-family: 'Montserrat', sans-serif;
 }
 .open-sidebar:hover {
     cursor: pointer;
@@ -45,6 +46,7 @@
     z-index: 100;
     padding: none;
     margin: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .side-link a {
