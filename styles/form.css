@@ -1,0 +1,8 @@
+/*format google form*/
+
+.googleform {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px auto;
+}
