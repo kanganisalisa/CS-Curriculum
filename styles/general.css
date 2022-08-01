@@ -38,8 +38,19 @@ th {
 
 td {
     text-align: center;
+    font-weight: 300;
 }
 
+/*links*/
+a { 
+    text-decoration: none; 
+    color: rgb(167, 88, 206);
+}
+
+
+a:hover { 
+    background-color:rgba(255, 225, 0, 0.3);
+}
 
 
 
