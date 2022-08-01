@@ -20,6 +20,20 @@
     text-align: center;
 }
 
-.slide-copy-button {
+.slide-copy a:hover {
+    background-color: transparent;
+}
 
+.slide-copy-button {
+    border: none;
+    transition: box-shadow 0.15s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 20px;
+}
+
+.slide-copy-button:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 5px lightgrey;
 }

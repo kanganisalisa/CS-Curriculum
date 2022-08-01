@@ -2,7 +2,6 @@
 .open-sidebar {
     background-color: rgb(240, 240, 240);
     border: none;
-    border-radius: 2px;
     transition: box-shadow 0.15s;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
