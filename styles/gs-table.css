@@ -1,48 +1,61 @@
 /*format table on get started page*/
 
 /*inline*/
-
-.levels, .level-table {
+.levels, table {
     display: inline-block;
 }
 
-.level-table {
-    padding-top: 40px;
-    float: right;
-    text-align: left;
-}
-
-.level-table td, 
-.level-table th {
-    padding: 12px 10px;
-    border-bottom:rgb(172, 92, 92);
-}
-
-table {
-    padding-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-    min-width: 400px;
-    font-weight: 300;
-}
-
-.level-table tbody tr {
-    border-bottom:rgb(172, 92, 92);
-}
-
-table tr th {
-     background-color: rgb(199, 204, 229);
-}
-
+/*level description*/
 .levels  {
-    width: 45%;
+    width: 55%;
     padding-top: 20px;
     vertical-align: top;
     margin-left: 0;
     padding-left: 0;
 }
 
-/*cell colors*/
-
 /*table style*/
+table {
+    margin-top: 30px;
+    margin-right: 30px;
+    border-collapse: collapse;
+    font-weight: 300;
+    font-size: 0.9em;
+    float: right;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/*color header row*/
+table tr th {
+     background-color: rgb(199, 204, 229);
+}
+
+/*color data rows*/
+table tr td {
+    background-color: rgb(242, 242, 242);
+    border-bottom: 1px solid rgb(218, 213, 213);
+}
+
+/*bottom border*/
+table tr:last-of-type {
+    border-bottom: 3px solid rgb(199, 204, 229);
+}
+
+/*pad all cells*/
+table tr th, table tr td {
+    padding: 10px;
+}
+
+/*remove default formating of lists*/
+table td ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+table td ol {
+    list-style: decimal;
+    padding-left: 15px;
+}
