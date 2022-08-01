@@ -1,8 +1,11 @@
 /*general styling*/
 
 /*fonts*/
-div {
+body {
     font-family: 'Montserrat', sans-serif;
+}
+
+div {
     padding-left: 2%;
     padding-right: 2%
 }
@@ -16,7 +19,6 @@ ul {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 

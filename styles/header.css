@@ -8,8 +8,6 @@
     font-weight:bolder;
     margin-top: 0;
     margin-bottom: 15px;
-    font-family: Raleway;
-    font-weight: lighter;
 }
 
 /*Navigation Links in header*/
@@ -24,7 +22,7 @@
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-
+    font-weight: 400;
 }
 
 
