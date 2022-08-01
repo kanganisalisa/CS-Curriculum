@@ -1,13 +1,27 @@
 /*format webpage header*/
 
-/*CS CURRICULUM in header*/
-.webheader {
-    color: rgb(208, 205, 208);
-    text-align: center;
+/*Curriculum title in header*/
+.webheader-title {
+    color: rgb(255, 255, 255);
     font-size: 3em;
     font-weight:bolder;
     margin-top: 0;
     margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+/*Curriculum image in header*/
+.webheader-img {
+    width: 100px;
+}
+
+.webheader-title, .webheader-img {
+    display: inline;
+    vertical-align: middle;
+}
+
+.webheader {
+    text-align: center;
 }
 
 /*Navigation Links in header*/
@@ -25,7 +39,6 @@
     font-weight: 400;
 }
 
-
 .header-links a {
     color: white;
     text-decoration: none;
@@ -36,17 +49,24 @@
 }
 
 .header-links a:hover {
-    background-color:rgba(255, 255, 255, 0.3);
-    background-size:10cm;
     cursor: pointer;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 10px #a8a4a4;
 }
 
 /*header background image*/
 .main-header {
     background-image: url(../images/code2.png);
-    background-color: rgba(89, 145, 90, 0.9);
+    background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
     background-size: cover;
-    max-height:max-content;
+    max-height: max-content;
     padding-top: 2em;
+}
+
+/*fill header background image to html borders*/
+html,
+body {
+    padding: 0;
+    margin: 0;
 }
