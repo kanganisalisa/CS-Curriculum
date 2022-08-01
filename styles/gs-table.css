@@ -1,0 +1,48 @@
+/*format table on get started page*/
+
+/*inline*/
+
+.levels, .level-table {
+    display: inline-block;
+}
+
+.level-table {
+    padding-top: 40px;
+    float: right;
+    text-align: left;
+}
+
+.level-table td, 
+.level-table th {
+    padding: 12px 10px;
+    border-bottom:rgb(172, 92, 92);
+}
+
+table {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    min-width: 400px;
+    font-weight: 300;
+}
+
+.level-table tbody tr {
+    border-bottom:rgb(172, 92, 92);
+}
+
+table tr th {
+     background-color: rgb(199, 204, 229);
+}
+
+.levels  {
+    width: 45%;
+    padding-top: 20px;
+    vertical-align: top;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+/*cell colors*/
+
+/*table style*/
