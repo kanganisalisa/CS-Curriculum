@@ -1,31 +1,37 @@
 /*format webpage header*/
 
-@font-face {
-    font-family: techy;
-    src: url(fonts/laser-corps-font.woff2);
-  }
-
-/*Curriculum title in header*/
+/*format title text style in header*/
 .webheader-title {
     color: rgb(255, 255, 255);
     font-size: 4em;
     font-weight:bolder;
     font-family: 'Hackbot Free Trial', sans-serif;
+    margin: 0;
 }
 
-/*Curriculum image in header*/
+.subtitle {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/*format itle and image in header*/
+.title, .webheader-img {
+    display: inline-block;
+}
+
+.title-header {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 2%;
+}
+
 .webheader-img {
     width: 100px;
     padding-left: 10px;
 }
 
-.webheader-title, .webheader-img {
-    display: inline;
-    vertical-align: middle;
-}
-
-.webheader {
-    text-align: center;
+.title {
     padding: 0;
 }
 
