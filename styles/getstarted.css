@@ -49,13 +49,13 @@ table tr:last-of-type {
     border-bottom: 3px solid rgb(199, 204, 229);
 }
 
-table td:last-of-type {
-
-}
-
 /*pad all cells*/
 table tr th, table tr td {
-    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
 }
 
 /*remove default formating of lists*/
