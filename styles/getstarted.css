@@ -1,17 +1,22 @@
-/*format table on get started page*/
+/*format get started page*/
 
-/*inline*/
+/*inline curriculum layout and table*/
 .levels, table {
     display: inline-block;
 }
 
 /*level description*/
+.level-description {
+    float: left;
+    padding: 0;
+}
+
 .levels  {
     width: 55%;
-    padding-top: 20px;
     vertical-align: top;
-    margin-left: 0;
-    padding-left: 0;
+    padding: 0;
+    padding-top:20px;
+    padding-bottom: 40px;
 }
 
 /*table style*/
@@ -58,4 +63,37 @@ table td ul {
 table td ol {
     list-style: decimal;
     padding-left: 15px;
+}
+
+/*format images and materials section*/
+
+.images, .materials {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 1%;
+}
+
+.materials {
+    width: 50%;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.p1, .p2, .p3 {
+    width: 60%;  
+}
+
+.ul1 {
+    width: 75%;
+}
+
+/*format bottom text and image*/
+
+.bottom-text, .kid-img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.kid-img {
+    width: 30%;
 }

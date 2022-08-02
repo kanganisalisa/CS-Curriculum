@@ -1,6 +1,12 @@
 /*format images inlign*/
 
-.row {
+.line-1 {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+}
+
+.line-2 {
   display: flex;
   text-align: center;
   flex-direction: row;
@@ -9,7 +15,7 @@
 .column {
   display: flex;
   flex: 4;
-  padding: 0;
+  padding: 5px;
   position: relative;
   justify-content: center;
 }
@@ -39,13 +45,14 @@
 }
 
 .img {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
   border-radius: 50%;
   opacity: 1;
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding: 10px;
 }
   

@@ -1,25 +1,29 @@
 /*general styling*/
 
 /*fonts*/
-body {
+body h2 {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 500;
+}
+
+body p, body ol, body ul, body table {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(46, 46, 46);
+    font-weight: 300;
+}
+
+body ul {
+    list-style-type: circle;
+}
+
+body h2 {
+    padding-top: 2%
 }
 
 div {
-    padding-left: 2%;
-    padding-right: 2%
-}
-
-p { 
-    font-weight: 300;
-}
-
-ul {
-    font-weight: 300;
-}
-
-h2 {
-    font-weight: 500;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%
 }
 
 /*links*/
