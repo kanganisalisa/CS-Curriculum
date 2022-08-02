@@ -1,0 +1,9 @@
+/*format the about page*/
+
+/*top paragraph and image*/
+
+.seal {
+    float: right;
+    padding: 2%;
+    width: 200px;
+}

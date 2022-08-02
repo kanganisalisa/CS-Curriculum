@@ -49,9 +49,13 @@ table tr:last-of-type {
     border-bottom: 3px solid rgb(199, 204, 229);
 }
 
+table td:last-of-type {
+
+}
+
 /*pad all cells*/
 table tr th, table tr td {
-    padding: 10px;
+    padding: 15px;
 }
 
 /*remove default formating of lists*/
@@ -85,6 +89,10 @@ table td ol {
 
 .ul1 {
     width: max-content;
+}
+
+ul {
+    margin-left: -27px;
 }
 
 /*format bottom text and image*/
