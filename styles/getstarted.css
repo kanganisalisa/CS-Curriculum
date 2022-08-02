@@ -79,12 +79,12 @@ table td ol {
     padding-bottom: 0;
 }
 
-.p1, .p2, .p3 {
-    width: 60%;  
+.p1 {
+    width: max-content;
 }
 
 .ul1 {
-    width: 75%;
+    width: max-content;
 }
 
 /*format bottom text and image*/
@@ -94,6 +94,15 @@ table td ol {
     vertical-align: middle;
 }
 
+.bottom-text {
+    padding: 0;
+    width: 60%;
+}
+
 .kid-img {
-    width: 30%;
+    width: 35%;
+    float: right;
+    margin-top: 6%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
