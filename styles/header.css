@@ -13,6 +13,7 @@
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     color: white;
     margin: 0;
+    font-size: larger;
 }
 
 /*format itle and image in header*/
@@ -22,13 +23,14 @@
 
 .title-header {
     text-align: center;
-    padding: 0;
+    padding-top: 1%;
     padding-bottom: 2%;
 }
 
 .webheader-img {
     width: 100px;
     padding-left: 10px;
+    padding-bottom: 5px;
 }
 
 .title {
