@@ -27,7 +27,7 @@
 
 .slide-copy-button {
     border: none;
-    transition: box-shadow 0.15s;
+    transition: background-color 0.15s;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
